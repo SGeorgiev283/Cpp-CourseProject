@@ -1,0 +1,8 @@
+﻿  F181217009.cpp
+C:\Users\Freeware Sys\source\repos\F181217009\F181217009\MyMatrix.h(19,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Freeware Sys\source\repos\F181217009\F181217009\MyMatrix.h(64,20): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  MyMatrix.cpp
+C:\Users\Freeware Sys\source\repos\F181217009\F181217009\MyMatrix.h(19,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Freeware Sys\source\repos\F181217009\F181217009\MyMatrix.h(64,20): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+  F181217009.vcxproj -> C:\Users\Freeware Sys\source\repos\F181217009\Debug\F181217009.exe
