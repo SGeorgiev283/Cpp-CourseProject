@@ -15,16 +15,16 @@ public:
 			data[i] = new int[columns];
 		}
 	}
-	MyMatrix(int rowss, int columnss) {
+	MyMatrix(int rows, int columns) {
 		srand(time(0));
-		this->rows = rowss;
-		this->columns = columnss;
-		data = new int* [rowss];
-		for (int i = 0; i < rowss; i++) {
-			data[i] = new int[columnss];
+		this->rows = rows;
+		this->columns = columns;
+		data = new int* [this->rows];
+		for (int i = 0; i < this->rows; i++) {
+			data[i] = new int[this->columns];
 		}
-		for (int i = 0; i < rowss; i++) {
-			for (int j = 0; j < columnss; j++) {
+		for (int i = 0; i < this->rows; i++) {
+			for (int j = 0; j < this->columns; j++) {
 				data[i][j] = rand()%10;
 			}
 		}
